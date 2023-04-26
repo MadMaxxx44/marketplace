@@ -1,0 +1,675 @@
+/* * {
+  box-sizing: border-box;
+} */
+.logo {
+  position: absolute;
+  height: 33px;
+  top: 30px; 
+  left: 84px;
+}
+.rain-icon {
+  height: 50px;
+  border-radius: 50%;
+}
+.home-icon {
+  height: 25px;
+}
+.home-icon:hover {
+  cursor: pointer; 
+}
+.linkedin-icon {
+  border: 2px solid white; 
+  background-color: white;
+  height: 20px;
+  margin-right: 10px;
+}
+.linkedin-icon:hover {
+  cursor: pointer; 
+  background-color: grey;
+  border-color: grey;
+}
+.stack-icon {
+  border: 2px solid white; 
+  background-color: white;
+  height: 20px;
+  margin-right: 10px;
+}
+.stack-icon:hover {
+  cursor: pointer;
+  background-color: grey;
+  border-color: grey;
+}
+.github-icon {
+  border: 2px solid white; 
+  background-color: white;
+  height: 20px;
+}
+.github-icon:hover {
+  cursor: pointer;
+  background-color: grey;
+  border-color: grey;
+}
+.footer {
+  position: fixed; 
+  width: 100%;
+  font-size: 11px;
+  background-color: black;
+  border-top: 2px solid white; 
+  height: 100px;
+  display: block; 
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer h1 {
+  margin-bottom: 5px; 
+}
+.buttons {
+  display: inline-block; 
+  margin-top: 20px;
+  margin-left: auto;
+  align-items: center;
+  padding-left: 20px;
+}
+.buttons1155 {
+  display: inline-block; 
+  margin-top: 20px;
+  margin-left: -106px;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.sell {
+  background-color: black;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  height: 1100px;
+}
+.sell1155-div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 1200px;
+}
+.NFTCard {
+  display: block; 
+  border: 1px solid rgb(102, 24, 247);
+  color:black; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  max-height: 600px;
+  flex-shrink: 0;
+}
+.NFTCard:hover {
+  cursor: pointer; 
+  box-shadow: 0 2px 50px 0 rgb(102, 24, 247), 0 2px 50px 0 rgb(102, 24, 247);
+  transition: 0.5s;
+  transform: translate3d(0, -10px, 0) scale(1.05);
+}
+.NFTCard span {
+  display: block; 
+  margin-top: 0px; 
+}
+.NFTcard-image {
+  display: block; 
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+.divNFT {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow-y: hidden;
+  height: auto;
+  width: 100%;
+  padding-left: 72px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: medium; 
+}
+.divNFT section {
+  margin-bottom: 230px;
+}
+.divNFTWrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+section {
+  margin-right: 50px; 
+  flex: 0 0 auto;
+  width: 400px; 
+  height: 400px;
+  margin-bottom: 150px;
+}
+.temp {
+  background-color: antiquewhite;
+}
+:target {
+  scroll-margin-top: 0px;
+}
+.hidden {
+  visibility: hidden;
+}
+.strStr {
+  text-align: left;
+  display: inline-block;
+  width: 750px;
+  height: 200px;
+  padding: 0px 68px 0px 564px;
+}
+.about {
+  align-items: center;
+  font-size: large;
+  background-color: #000000;
+  width: 100%;
+  height: 847px;
+  text-align: center;
+}
+.about p {
+  font-size: 40px;
+  background: linear-gradient(to right,#96ffea,  rgb(68, 0, 194));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home {
+  align-items: center;
+  font-size: large;
+  background-color: #000000;
+  width: 100%;
+  height: 813px;
+  text-align: center;
+}
+.home p {
+  font-size: 50px;
+  background: linear-gradient(to right,#96ffea,  rgb(68, 0, 194));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input {
+  display: inline;
+}
+label {
+  display: inline; 
+  width: 100px; 
+  margin-right: 0px; 
+  font-size: 20px;
+  color:rgb(89, 0, 255); 
+}
+.sell721config { 
+  height: 130px; 
+}
+.buy721config {
+  text-align: center;
+  display: inline;
+  width: 300px;
+  height: 20px;
+  padding: 0px -1px 0px 190px;
+}
+.close721config {
+  text-align: left;
+  display: inline-block;
+  padding: 0px 68px 0px 63px;
+  height:20px; 
+}
+.error721sell {
+  position: absolute;
+  top: 160px; 
+  left: 10px;
+}
+.error721buy {
+  position: absolute;
+  top: 230px; 
+  left: 10px;
+}
+.error721close {
+  position: absolute;
+  top: 287px; 
+  left: 10px;
+}
+.error721retrieve {
+  position: absolute;
+  top: 455px; 
+  left: 10px;
+}
+.header {
+  display: flex; 
+  margin-left: 70px;
+  font-size: 30px;
+  font-style: italic;
+}
+.headerAbout {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+}
+.headerContacts {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+}
+.headerHome {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+}
+.header721 {
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(89, 0, 255);
+  height:50px; 
+}
+.header721-nfts {
+  position: absolute;
+  top: 540px;
+  left: 560px;
+  width: 800px;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(89, 0, 255); 
+}
+.header1155 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(89, 0, 255); 
+  height: 50px; 
+  margin-top: 10px;
+}
+.header1155-nfts {
+  position: absolute;
+  top: 570px;
+  left: 560px;
+  width: 800px;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(89, 0, 255); 
+}
+#details {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid rgb(102, 24, 247);
+  border-bottom: 1px solid rgb(102, 24, 247);
+  padding: 5px;
+}
+.details-left {
+  left: 0px;
+  width: 120px;
+  text-align: left;
+}
+.details-right {
+  top: 10px; 
+  right: 0px;
+  position: absolute;
+  width: 250px;
+  text-align: right;
+}
+.test {
+  width: 380px;  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.name-test {
+  text-align: right;
+}
+#address-link {
+  color: rgb(102, 24, 247);
+}
+.details-conf {
+  padding: 0px 0px 0px 0px;
+  color: black; 
+  height: 0px;
+}
+.details-conf1155 {
+  height: 10px;
+}
+#arrow {
+  height: 20px;
+  fill: rgb(102, 24, 247);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+#arrow.down {
+  transform: rotate(180deg) translateY(-2px);
+}
+.salePrice {
+  font-size: 20px;
+}
+.sell721 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 28px;
+}
+.buy721 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 28px;
+  margin-right: 6px;
+}
+.close721 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 20px;
+}
+.cs {
+  text-align: right;
+  margin-left: 650px;
+  height: 100px; 
+  margin-bottom: 500px; 
+}
+.cs-buy721 {
+  text-align: right;
+  margin-left: 650px;
+  height: 38px;
+  margin-bottom:auto; 
+}
+.cs-close721 {
+  text-align: right;
+  margin-left: -148px;
+  margin-bottom: 25px;
+  height: 15px;
+  margin-top: -1px; 
+}
+.cs1155 {
+  text-align: right;
+  margin-left: -150px;
+  height: 125px; 
+  margin-bottom: 500px; 
+}
+.cs-buy1155 {
+  text-align: right;
+  margin-left: -209px;
+  height: 35px;
+  margin-bottom:auto; 
+}
+.cs-close1155 {
+  text-align: right;
+  margin-left: -146px;
+  margin-bottom: 25px;
+  height: 10px;
+}
+.sell1155config {
+  text-align: center;
+  display: inline-block;
+  height: 170px;
+}
+.buy1155config {
+  text-align: left;
+  display: inline-block;
+  padding: 0px 68px 0px 123px;
+}
+.close1155config {
+  text-align: left;
+  display: inline-block;
+  padding: 0px 68px 0px 61px;
+}
+.strStr2 {
+  position: absolute;
+  top: 2600px;
+  left: -500px;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 68px 0px 562px;
+}
+.error1155sell{
+  position: absolute;
+  top: 170px;
+  left: 10px;
+}
+.error1155buy {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+.error1155close {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+}
+.error1155retrieve {
+  position: absolute;
+  top: 1090px;
+  left: 10px;
+}
+.sell1155 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 28px;
+}
+.buy1155 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 28px;
+  margin-left: 34px;
+}
+.close1155 {
+  padding: 6px 107px 29px 10px;
+  text-indent: 20px;
+  margin-left: 97px;
+}
+button {
+  background: transparent;
+  background-color: black;
+  line-height: 22px;
+  text-indent: -63px;
+  margin: 0;
+  color: white;
+  width: 100px;
+  height: 30px; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 20px; 
+  font-weight: 400;
+  padding: 6px 107px 29px 78px;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+button:hover {
+  cursor: pointer; 
+  box-shadow: 0 2px 50px 0 rgb(102, 24, 247), 0 2px 50px 0 rgb(102, 24, 247);
+  transition: 0.5s;
+}
+.myNav {
+  padding: 30px 25px;
+  height: 40px;
+  display: flex; 
+  align-items: center;
+  width: 100%;
+  background-color:black;
+  border-bottom: 2px solid white;
+}
+nav {
+  position: fixed; 
+  z-index: 9999;
+}
+.nav-links {
+  flex: 1;
+  text-align: left;
+  margin-left: 1000px;
+  width: auto;
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li {
+  list-style: none;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 12px; 
+  position: relative;   
+  background-color: black;
+  margin-right: 40px;
+  color: white;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 2px 7px 0 rgb(102, 24, 247), 0 2px 50px 0 rgb(102, 24, 247);
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
+  text-shadow: none;
+}
+.nav-links ul li:hover {
+  background-color: white;
+  color: black; 
+}
+.nav-links ul li:hover a {
+  color: black;
+}
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 26px;
+  color: rgb(89, 0, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+.order {
+  position: absolute;
+  top: -10px; 
+  left: 450px;
+}
+.my1div { 
+  display: grid; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+  height: 877px; 
+}
+.my2div {
+  display: grid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color:black;
+  height: 787px;
+}
+.address {
+  position: absolute;
+  width: 600px;
+  height: 20px;
+  text-align: right;
+  font-size: medium;
+  top: 80px; 
+  left: 0px;
+  background-color:transparent;
+}
+/*-------------------------------------------------------1155-----------------------------------------------------------------*/
+.NFTCard1155 {
+  display: block;
+  border: 1px solid rgb(102, 24, 247);
+  color:black; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: white;
+  max-height: 600px;
+}
+.NFTCard1155:hover {
+  cursor: pointer; 
+  box-shadow: 0 2px 50px 0 rgb(102, 24, 247), 0 2px 50px 0 rgb(102, 24, 247);
+  transition: 0.5s;
+  transform: translate3d(0, -10px, 0) scale(1.05);
+}
+.NFTCard1155.no-hover:hover {
+  cursor: default;
+  box-shadow: none;
+  transition: none;
+  transform: none;
+}
+.NFTCard1155 section {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 150px;
+}
+.NFTCard1155-image {
+  display: inline-block; 
+  margin: 10px auto;
+  margin-right: 10px;
+  height: 115px;
+  width: auto;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.modal {
+  padding: 16px;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10000;
+}
+.modal img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+.divNFT1155 {
+  display: flex; 
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  height: auto;
+  width: 95%;
+  padding-left: 73px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: medium; 
+}
+#details-1155 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid rgb(102, 24, 247);
+  border-bottom: 1px solid rgb(102, 24, 247);
+  padding: 10px;
+}
+.confirmation {
+  position: absolute;
+  left: -100%;
+  transition: left 0.5s ease-in-out;
+}
+.confirmation.active {
+  left: 980px;
+  visibility: visible;
+  font-size: 50px;
+  color:#01cf34; 
+  z-index: 9999;
+}
+.confirmationContainer {
+  position: fixed;
+  visibility: hidden;
+  top: 50px;
+  left: -120px;
+}
