@@ -1,5 +1,6 @@
 {
   "name": "marketplace",
+  "homepage": "https://madmaxxx44.github.io/gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
     "react-app-rewired": "^2.2.1"
