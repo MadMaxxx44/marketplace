@@ -5,7 +5,7 @@ import App721 from "./721App"
 import App1155 from "./1155App"
 import reportWebVitals from "./reportWebVitals"
 import { DAppProvider, ChainId } from "@usedapp/core"
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { HashRouter as Router, Routes, Route} from "react-router-dom"
 import About from "./pages/About"
 import Home from "./pages/Home"
 
