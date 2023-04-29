@@ -12,7 +12,7 @@ const App: React.FC = () => {
       supportedChains: [ChainId.Goerli, ChainId.Sepolia]
     }}>
       <body>
-        <div><Navbar /></div>
+        <div className="navbar"><Navbar /></div>
         <div className="my1div"> 
           <header className="header721">721</header>
           <div className="sell">

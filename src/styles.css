@@ -182,6 +182,7 @@ section {
   width: 100%;
   height: 813px;
   text-align: center;
+  margin: 0 25px; 
 }
 .home p {
   font-size: 50px;
@@ -494,6 +495,7 @@ button:hover {
   width: 100%;
   background-color:black;
   border-bottom: 2px solid white;
+  justify-content: space-between;
 }
 nav {
   position: fixed; 
@@ -501,7 +503,6 @@ nav {
 }
 .nav-links {
   flex: 1;
-  text-align: left;
   margin-left: 900px;
   width: auto;
 }
@@ -679,4 +680,80 @@ body::-webkit-scrollbar {
   visibility: hidden;
   top: 50px;
   left: -120px;
+}
+@media (max-width: 1800px) {
+  .connection-btn {
+    left: 1650px; 
+  }
+  .nav-links {
+    margin-left: 800px; 
+  }
+  .divNFT1155 {
+    width: 90%; 
+    padding-left: 172px;
+  }
+  .NFTCard1155 {
+    width: 320px;
+  }
+  section {
+    width: 310px;
+  }
+}
+@media (max-width: 1700px) {
+  .connection-btn {
+    left: 1550px; 
+  }
+  .nav-links {
+    margin-left: 700px; 
+  }
+  .divNFT1155 {
+    width: 90%; 
+    padding-left: 152px;
+  }
+  section {
+    width: 290px;
+  }
+}
+@media (max-width: 1600px) {
+  .connection-btn {
+    left: 1450px; 
+  }
+  .nav-links {
+    margin-left: 600px; 
+  }
+  .divNFT1155 {
+    width: 90%; 
+    padding-left: 100px;
+  }
+  section {
+    width: 290px;
+  }
+}
+@media (max-width: 1500px) {
+  .connection-btn {
+    left: 1350px; 
+  }
+  .nav-links {
+    margin-left: 500px; 
+  }
+  .divNFT1155 {
+    padding-left: 90px;
+  }
+  section {
+    width: 280px;
+  }
+}
+@media (max-width: 1400px) {
+  .connection-btn {
+    left: 1250px; 
+  }
+  .nav-links {
+    margin-left: 400px; 
+  }
+  .divNFT1155 {
+    padding-left: 80px;
+  }
+  section {
+    width: 240px;
+  }
 }
