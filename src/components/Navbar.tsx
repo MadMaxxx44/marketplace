@@ -2,8 +2,12 @@ import React from "react"
 import logo from "../images/m.png"
 import home from "../images/power2.gif"
 import { Link } from "react-router-dom"
+import { useEthers } from "@usedapp/core"
 
 export default function Navbar() {
+  const { account, activateBrowserWallet, deactivate } = useEthers()
+  const isConnected = account !== undefined
+
   return (
   <>
     <nav className="myNav">
@@ -19,6 +23,19 @@ export default function Navbar() {
           <li><Link to="/about">About</Link></li>
         </ul>
       </div>
+      {isConnected ? (
+        <button 
+          className="connection-btn" 
+          onClick={deactivate}>
+          Disconnect
+        </button>
+      ) : (
+        <button 
+          className="connection-btn" 
+          onClick={() => activateBrowserWallet()}>
+          Connect
+        </button>
+      )}
     </nav>
   </>
   )

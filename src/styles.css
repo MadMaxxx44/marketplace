@@ -479,6 +479,13 @@ button:hover {
   box-shadow: 0 2px 50px 0 rgb(102, 24, 247), 0 2px 50px 0 rgb(102, 24, 247);
   transition: 0.5s;
 }
+.connection-btn {
+  position: absolute;
+  top: 20;
+  left: 1750px; 
+  padding-right:50px;
+  text-align: center;
+}
 .myNav {
   padding: 30px 25px;
   height: 40px;
@@ -495,7 +502,7 @@ nav {
 .nav-links {
   flex: 1;
   text-align: left;
-  margin-left: 1100px;
+  margin-left: 900px;
   width: auto;
 }
 .nav-links ul {
